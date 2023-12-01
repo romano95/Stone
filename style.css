@@ -1,0 +1,323 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    background-color: rgba(50, 50, 50, 1);
+}
+
+.text-nav {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgba(237, 237, 237, 1);
+    padding-top: 18px;
+}
+
+.text-nav:hover {
+    color: rgba(199, 170, 139, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.pad-img-nav {
+    padding-top: 12px;
+}
+
+.pad-img-nav:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+.section_1 {
+    background-image: url('image/image_section_1.png');
+    height: 497px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+}
+
+h1 {
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 67px;
+}
+
+.p-h1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.81);
+    padding-top: 70px;
+}
+
+.btn-block {
+    text-align: center;
+    padding-top: 49px;
+}
+
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: rgba(77, 77, 77, 1);
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.section_2 {
+    background-color: rgba(199, 170, 139, 1);
+    height: 425px;
+    padding-top: 58px;
+}
+
+
+.namber-text {
+    color: rgba(50, 50, 50, 0.09);
+    border-bottom: 1px solid rgba(50, 50, 50, 0.13);
+}
+
+.img-img {
+    max-width: 100%;
+    padding-bottom: 35px;
+}
+
+.img-box-img {
+    text-align: center;
+}
+
+.text-img {
+    padding-top: 22px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(77, 77, 77, 1);
+}
+
+.text-lorem {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(77, 77, 77, 1);
+}
+
+.flex-box-1 {
+    justify-content: left;
+}
+
+.flex-box-2 {
+    justify-content: center;
+}
+
+.flex-box-3 {
+    justify-content: right;
+}
+
+.section_3 {
+    background-image: url('image/bg-ocean.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    height: 394px;
+}
+
+.section-box {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(199, 170, 139, 1);
+    padding-top: 127px;
+}
+
+.line {
+    border-bottom: 3px solid rgba(199, 170, 139, 1);
+    width: 60px;
+    height: 2px;
+    padding-top: 23px;
+}
+
+.section_4 {
+    margin-top: 76px;
+}
+
+.the-team {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(77, 77, 77, 1);
+}
+
+.name-portret {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(77, 77, 77, 1);
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.text-portret {
+    font-family: 'Vollkorn',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(77, 77, 77, 1);
+}
+
+.box-portret {
+    max-width: 100%;
+}
+
+.pd-left {
+    padding-left: 10px;
+}
+
+.d-f {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_5 {
+    background-color: rgba(247, 247, 247, 1);
+    height: 386px;
+    margin-top: 80px;
+}
+
+.testimonials {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(50, 50, 50, 0.36);
+    padding-top: 79px;
+    padding-bottom: 40px;
+}
+
+.text-decor {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(77, 77, 77, 1);
+
+}
+
+.text-span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(199, 170, 139, 1);
+}
+
+.footer-f {
+    background-color: rgba(50, 50, 50, 1);
+    height: 150px;
+}
+
+.footer-text-logo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(133, 133, 133, 1);
+
+}
+
+.footer-text-logo::before {
+    content: url('image/logo-footer.png');
+    padding-right: 3px;
+}
+
+.center-text-footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: rgba(77, 77, 77, 0.2);
+    color: rgba(199, 170, 139, 1);
+    border: 2px solid rgba(199, 170, 139, 1);
+    width: 300px;
+}
+
+span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(133, 133, 133, 1);
+}
+
+.pad-top {
+    padding-top: 57px;
+}
+
+.d-flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
